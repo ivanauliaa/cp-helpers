@@ -1,4 +1,4 @@
-package golang
+package max
 
 func maxInt(arr *[]int32) int32 {
 	max := int32(0)

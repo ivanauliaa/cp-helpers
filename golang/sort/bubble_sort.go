@@ -1,4 +1,4 @@
-package golang
+package sort
 
 func bubbleSortInt(arr []int32) []int32 {
 	for i := 0; i < len(arr)-1; i++ {
