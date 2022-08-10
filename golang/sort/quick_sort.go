@@ -6,7 +6,7 @@ import (
 )
 
 func quickSortInt(a []int32) []int32 {
-	rand.Seed(time.Now().UnixNano())
+	rand.Seed(time.Now().UnixNano()) // don't forget to import "math/rand" and "time" package
 
 	if len(a) < 2 {
 		return a
